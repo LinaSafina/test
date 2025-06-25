@@ -32,17 +32,17 @@
   opacity: 0;
 }
 
-@media (hover: hover) {
-  .pet-card:hover .info {
-    transform: translateY(0);
-  }
-  .pet-card:hover .info button {
-    pointer-events: auto;
-    opacity: 1;
-  }
+/* @media (hover: hover) { */
+.pet-card:hover .info {
+  transform: translateY(0);
 }
+.pet-card:hover .info button {
+  pointer-events: auto;
+  opacity: 1;
+}
+/* } */
 
-@media (hover: none) {
+/* @media (hover: none) {
   .pet-card:active .info {
     transform: translateY(0);
   }
@@ -50,4 +50,4 @@
     pointer-events: auto;
     opacity: 1;
   }
-}
+} */
