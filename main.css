@@ -1,0 +1,53 @@
+.pet-card {
+  border-radius: 24px;
+  height: 360px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  background-color: red;
+}
+
+/* .inner {
+  height: 220px;
+  border-radius: 24px;
+  background-color: blue;
+} */
+
+.info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 224px;
+  border-radius: 20px;
+  background-color: blue;
+  gap: 16px;
+
+  justify-content: space-between;
+  transition: all 0.5s;
+  transform: translateY(60px);
+}
+
+.info button {
+  opacity: 0;
+}
+
+@media (hover: hover) {
+  .pet-card:hover .info {
+    transform: translateY(0);
+  }
+  .pet-card:hover .info button {
+    pointer-events: auto;
+    opacity: 1;
+  }
+}
+
+@media (hover: none) {
+  .pet-card:active .info {
+    transform: translateY(0);
+  }
+  .pet-card:active .info button {
+    pointer-events: auto;
+    opacity: 1;
+  }
+}
