@@ -39,21 +39,21 @@
   display: block;
 } */
 
-/* @media (hover: hover) and (pointer: fine) {
-  .pet-card:hover .info {
-    transform: translateY(0);
-  }
-  .pet-card:hover .info button {
-    pointer-events: auto;
-    opacity: 1;
-  }
-  .hover:hover + .absolute {
-    display: block;
-  }
-} */
+/* @media (hover: hover) and (pointer: fine) { */
+.pet-card:hover .info {
+  transform: translateY(0);
+}
+.pet-card:hover .info button {
+  pointer-events: auto;
+  opacity: 1;
+}
+.hover:hover + .absolute {
+  display: block;
+}
+/* } */
 
 /* @media (hover: none) and (pointer: coarse) { */
-.pet-card:active .info {
+/* .pet-card:active .info {
   transform: translateY(0);
 }
 .pet-card:active .info button {
@@ -62,5 +62,5 @@
 }
 .hover:active + .absolute {
   display: block;
-}
+} */
 /* } */
