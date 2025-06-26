@@ -70,4 +70,8 @@
     touch-action: "manipulation";
     -webkit-tap-highlight-color: "transparent";
   }
+  .pet-card button {
+    user-select: none;
+    -webkit-user-select: none;
+  }
 }
